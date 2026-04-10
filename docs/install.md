@@ -6,6 +6,7 @@ BetterSeed is published as a curated release artifact, not a source dump. Use th
 
 - Build: `20260410T123202Z`
 - SHA-256: `751761465c3302af340414b82d1c64c738ebcd046fe299536eb47d4b448f69b3`
+- Minimum Android: `11` (`API 30`)
 
 ## Recommended Flow
 

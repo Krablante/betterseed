@@ -16,7 +16,7 @@
   <a href="https://github.com/Krablante/betterseed/releases/tag/v2026.04.10-2"><img alt="Release" src="https://img.shields.io/badge/release-v2026.04.10--2-2ea44f"></a>
   <a href="https://github.com/Krablante/betterseed"><img alt="Repository" src="https://img.shields.io/badge/repo-public-24292f?logo=github"></a>
   <a href="https://github.com/Krablante/betterseed/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-1f6feb"></a>
-  <img alt="Android" src="https://img.shields.io/badge/Android-14%2B-3DDC84?logo=android&logoColor=white">
+  <img alt="Android" src="https://img.shields.io/badge/Android-11%2B-3DDC84?logo=android&logoColor=white">
   <img alt="Editable projects" src="https://img.shields.io/badge/Editable-.snpsd-5B8DEF">
 </p>
 
