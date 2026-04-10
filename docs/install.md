@@ -32,5 +32,6 @@ fa204564f4dd7f1af3474f822f0e2b907f86d8f7b4ea53d931534e4bfa56409b
 ## Notes
 
 - BetterSeed is intended to live alongside stock Snapseed, not replace it.
+- By default, projects live in `Download/BetterSeed Projects` and styles live in `Download/BetterSeed Styles`.
 - Public releases stay conservative on purpose. The goal is a stable usable mod, not a dumping ground for every experiment.
 - Everything needed for a normal install should be available from this repository and its release page.

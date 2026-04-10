@@ -88,6 +88,12 @@ This is the current accepted release line. If a later release is published, the 
 
 Follow [docs/install.md](docs/install.md) for the current release path.
 
+## Default File Locations
+
+- Projects (`.snpsd`): `Download/BetterSeed Projects`
+- Styles (`.bslook`): `Download/BetterSeed Styles`
+- `Export as` is folder-picker based, so flat photo exports can be saved wherever you choose
+
 ## Integrity
 
 Accepted release checksum:

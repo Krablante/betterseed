@@ -23,6 +23,12 @@ Verify the accepted build checksum:
 
 Because the public repo should be easy to audit, easy to release, and easy to maintain.
 
+## Where do projects and styles go by default?
+
+- Projects (`.snpsd`) live in `Download/BetterSeed Projects`
+- Styles (`.bslook`) live in `Download/BetterSeed Styles`
+- `Export as` lets you choose a different folder for flat photo exports
+
 ## Is BetterSeed a commercial product?
 
 No. BetterSeed is published as a free hobby release. The author does not receive commercial compensation from this project and does not offer paid commercial licensing, support, or endorsement through this repository.
