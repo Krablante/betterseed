@@ -18,6 +18,7 @@ BetterSeed keeps the public release surface tight and practical.
 - No-resize full-res export fix
 - `Export as -> SAVE` fix
 - View edits delete/edit roundtrip fixes
+- Lens Blur re-edit stability fix
 
 ## Editing Power-Ups
 

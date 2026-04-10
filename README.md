@@ -54,6 +54,7 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 - No-resize full-res export fix
 - `Export as -> SAVE` fixed
 - View edits delete/edit roundtrip fixes
+- Lens Blur re-edit stability fix
 - Shared numeric controls with exact value entry and hold-repeat
 - BetterSeed-only custom UI language defaulting to English outside `ru`, with `ru` overrides
 - Author channel link
@@ -66,6 +67,7 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 - `No-resize full-res export` removes the hidden export cap that could silently shrink large images even when you expected full size.
 - `Export as -> SAVE fix` makes folder-based export finish cleanly instead of throwing you back to the home screen with a load error.
 - `View edits roundtrip fixes` mean deleting or reopening a history step now survives the return back to the editor instead of getting lost.
+- `Lens Blur re-edit stability fix` closes a real reopen crash where returning to Lens Blur from `View edits` could fail before the tool became usable.
 - `Numeric controls` add `- / value / +`, hold-repeat, and exact number input for tools where the stock slider was too vague.
 - `Global range expansion` widens the allowed adjustment range when the stock limits are too conservative.
 - `.bslook`, `Curves 99`, and `preview fidelity` improve reusable looks, give more room for curve work, and keep the on-screen preview closer to the real result.
@@ -75,8 +77,8 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 
 Accepted baseline:
 
-- Build: `20260410T094706Z`
-- SHA-256: `4ebfddcd5beb41cfd76e04a28d8e7d5b96061e6e25a4abb5adb72307fc9c5516`
+- Build: `20260410T123202Z`
+- SHA-256: `751761465c3302af340414b82d1c64c738ebcd046fe299536eb47d4b448f69b3`
 
 This is the current accepted release line. If a later release is published, the release page becomes the source of truth for the newest public artifact.
 
@@ -88,8 +90,8 @@ Follow [docs/install.md](docs/install.md) for the current release path.
 
 Accepted release checksum:
 
-- Build: `20260410T094706Z`
-- SHA-256: `4ebfddcd5beb41cfd76e04a28d8e7d5b96061e6e25a4abb5adb72307fc9c5516`
+- Build: `20260410T123202Z`
+- SHA-256: `751761465c3302af340414b82d1c64c738ebcd046fe299536eb47d4b448f69b3`
 
 Verify the downloaded artifact before installing it.
 
