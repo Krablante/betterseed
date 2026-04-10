@@ -1,0 +1,31 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Local build and export artifacts
+dist/
+build/
+out/
+tmp/
+temp/
+release/
+artifacts/
+
+# Logs and caches
+*.log
+*.tmp
+*.cache
+cache/
+.cache/
+
+# Package managers
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
