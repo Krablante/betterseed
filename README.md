@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Krablante/betterseed/releases/tag/v2026.04.10-3"><img alt="Release" src="https://img.shields.io/badge/release-v2026.04.10--3-2ea44f"></a>
+  <a href="https://github.com/Krablante/betterseed/releases/tag/v2026.04.10-4"><img alt="Release" src="https://img.shields.io/badge/release-v2026.04.10--4-2ea44f"></a>
   <a href="https://github.com/Krablante/betterseed"><img alt="Repository" src="https://img.shields.io/badge/repo-public-24292f?logo=github"></a>
   <a href="https://github.com/Krablante/betterseed/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-1f6feb"></a>
   <img alt="Android" src="https://img.shields.io/badge/Android-11%2B-3DDC84?logo=android&logoColor=white">
@@ -57,7 +57,7 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 - Lens Blur re-edit stability fix
 - Retrolux Brightness/Contrast safe stock clamp under expanded boundaries
 - Shared numeric controls with exact value entry and hold-repeat
-- BetterSeed-only custom UI language defaulting to English outside `ru`, with `ru` overrides
+- English-only BetterSeed custom UI across all locales
 - Author channel link
 
 ## What The New Features Actually Do
@@ -73,14 +73,14 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 - `Numeric controls` add `- / value / +`, hold-repeat, and exact number input for tools where the stock slider was too vague.
 - `Global range expansion` widens the allowed adjustment range when the stock limits are too conservative.
 - `.bslook`, `Curves 99`, and `preview fidelity` improve reusable looks, give more room for curve work, and keep the on-screen preview closer to the real result.
-- `Localized BetterSeed UI` keeps BetterSeed-specific additions in English by default outside `ru`, while preserving explicit Russian wording for the Russian locale.
+- `English-only BetterSeed UI` keeps BetterSeed-specific additions on one consistent public-facing English layer across every locale.
 
 ## Current Canon
 
 Accepted baseline:
 
-- Build: `20260410T142530Z`
-- SHA-256: `fa204564f4dd7f1af3474f822f0e2b907f86d8f7b4ea53d931534e4bfa56409b`
+- Build: `20260410T191700Z`
+- SHA-256: `5f9ce437322007a80dcc86a6a7582eb9c68f8b79674e4482584821ce8aa432c3`
 
 This is the current accepted release line. If a later release is published, the release page becomes the source of truth for the newest public artifact.
 
@@ -98,8 +98,8 @@ Follow [docs/install.md](docs/install.md) for the current release path.
 
 Accepted release checksum:
 
-- Build: `20260410T142530Z`
-- SHA-256: `fa204564f4dd7f1af3474f822f0e2b907f86d8f7b4ea53d931534e4bfa56409b`
+- Build: `20260410T191700Z`
+- SHA-256: `5f9ce437322007a80dcc86a6a7582eb9c68f8b79674e4482584821ce8aa432c3`
 
 Verify the downloaded artifact before installing it.
 

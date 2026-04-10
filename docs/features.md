@@ -31,5 +31,5 @@ BetterSeed keeps the public release surface tight and practical.
 
 ## Localization And Quality-Of-Life
 
-- BetterSeed-only custom UI language defaults to English outside `ru`, with `ru` overrides
+- BetterSeed-only custom UI stays English across all locales
 - Author channel link

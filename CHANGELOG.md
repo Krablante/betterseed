@@ -2,6 +2,18 @@
 
 All notable changes to BetterSeed will be documented here.
 
+## v2026.04.10-4 - 2026-04-10
+
+### Changed
+
+- BetterSeed-only custom UI now stays English across all locales
+- Public repo wording was simplified to one English-only custom-UI policy
+
+### Current Public Canon
+
+- Public canon refreshed to build `20260410T191700Z`
+- Release artifact checksum refreshed for the accepted baseline
+
 ## v2026.04.10-3 - 2026-04-10
 
 ### Fixed
