@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Krablante/betterseed/releases/tag/v2026.04.10-4"><img alt="Release" src="https://img.shields.io/badge/release-v2026.04.10--4-2ea44f"></a>
+  <a href="https://github.com/Krablante/betterseed/releases/tag/v2026.04.10-5"><img alt="Release" src="https://img.shields.io/badge/release-v2026.04.10--5-2ea44f"></a>
   <a href="https://github.com/Krablante/betterseed"><img alt="Repository" src="https://img.shields.io/badge/repo-public-24292f?logo=github"></a>
   <a href="https://github.com/Krablante/betterseed/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-1f6feb"></a>
   <img alt="Android" src="https://img.shields.io/badge/Android-11%2B-3DDC84?logo=android&logoColor=white">
@@ -79,8 +79,8 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 
 Accepted baseline:
 
-- Build: `20260410T191700Z`
-- SHA-256: `5f9ce437322007a80dcc86a6a7582eb9c68f8b79674e4482584821ce8aa432c3`
+- Build: `20260410T192447Z`
+- SHA-256: `6540cf6ebbe3f5df25cb0b97583c8554ff205ebc0bfbb551537d8349de9e6aad`
 
 This is the current accepted release line. If a later release is published, the release page becomes the source of truth for the newest public artifact.
 
@@ -98,8 +98,8 @@ Follow [docs/install.md](docs/install.md) for the current release path.
 
 Accepted release checksum:
 
-- Build: `20260410T191700Z`
-- SHA-256: `5f9ce437322007a80dcc86a6a7582eb9c68f8b79674e4482584821ce8aa432c3`
+- Build: `20260410T192447Z`
+- SHA-256: `6540cf6ebbe3f5df25cb0b97583c8554ff205ebc0bfbb551537d8349de9e6aad`
 
 Verify the downloaded artifact before installing it.
 

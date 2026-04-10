@@ -2,6 +2,18 @@
 
 All notable changes to BetterSeed will be documented here.
 
+## v2026.04.10-5 - 2026-04-10
+
+### Fixed
+
+- The remaining hardcoded BetterSeed settings text is now English too
+- `Allowed boundary`, `Maximum boundary`, `Minimum boundary`, and `Author channel` no longer leak older Russian wording
+
+### Current Public Canon
+
+- Public canon refreshed to build `20260410T192447Z`
+- Release artifact checksum refreshed for the accepted baseline
+
 ## v2026.04.10-4 - 2026-04-10
 
 ### Changed

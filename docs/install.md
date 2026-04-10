@@ -4,8 +4,8 @@ BetterSeed is published as a curated release artifact, not a source dump. Use th
 
 ## Accepted Build
 
-- Build: `20260410T191700Z`
-- SHA-256: `5f9ce437322007a80dcc86a6a7582eb9c68f8b79674e4482584821ce8aa432c3`
+- Build: `20260410T192447Z`
+- SHA-256: `6540cf6ebbe3f5df25cb0b97583c8554ff205ebc0bfbb551537d8349de9e6aad`
 - Minimum Android: `11` (`API 30`)
 
 ## Recommended Flow
@@ -20,13 +20,13 @@ BetterSeed is published as a curated release artifact, not a source dump. Use th
 Linux/macOS:
 
 ```bash
-sha256sum BetterSeed-20260410T191700Z.apk
+sha256sum BetterSeed-20260410T192447Z.apk
 ```
 
 The output must match:
 
 ```text
-5f9ce437322007a80dcc86a6a7582eb9c68f8b79674e4482584821ce8aa432c3
+6540cf6ebbe3f5df25cb0b97583c8554ff205ebc0bfbb551537d8349de9e6aad
 ```
 
 ## Notes
