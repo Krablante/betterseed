@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Krablante/betterseed/releases/tag/v2026.04.10-2"><img alt="Release" src="https://img.shields.io/badge/release-v2026.04.10--2-2ea44f"></a>
+  <a href="https://github.com/Krablante/betterseed/releases/tag/v2026.04.10-3"><img alt="Release" src="https://img.shields.io/badge/release-v2026.04.10--3-2ea44f"></a>
   <a href="https://github.com/Krablante/betterseed"><img alt="Repository" src="https://img.shields.io/badge/repo-public-24292f?logo=github"></a>
   <a href="https://github.com/Krablante/betterseed/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-1f6feb"></a>
   <img alt="Android" src="https://img.shields.io/badge/Android-11%2B-3DDC84?logo=android&logoColor=white">
@@ -55,6 +55,7 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 - `Export as -> SAVE` fixed
 - View edits delete/edit roundtrip fixes
 - Lens Blur re-edit stability fix
+- Retrolux Brightness/Contrast safe stock clamp under expanded boundaries
 - Shared numeric controls with exact value entry and hold-repeat
 - BetterSeed-only custom UI language defaulting to English outside `ru`, with `ru` overrides
 - Author channel link
@@ -68,6 +69,7 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 - `Export as -> SAVE fix` makes folder-based export finish cleanly instead of throwing you back to the home screen with a load error.
 - `View edits roundtrip fixes` mean deleting or reopening a history step now survives the return back to the editor instead of getting lost.
 - `Lens Blur re-edit stability fix` closes a real reopen crash where returning to Lens Blur from `View edits` could fail before the tool became usable.
+- `Retrolux safety carve-out` keeps `Retrolux Brightness` and `Retrolux Contrast` on stock `[-100, +100]` even when the BetterSeed global boundary is expanded, which prevents Retrolux from crashing while leaving the other Retrolux controls expanded.
 - `Numeric controls` add `- / value / +`, hold-repeat, and exact number input for tools where the stock slider was too vague.
 - `Global range expansion` widens the allowed adjustment range when the stock limits are too conservative.
 - `.bslook`, `Curves 99`, and `preview fidelity` improve reusable looks, give more room for curve work, and keep the on-screen preview closer to the real result.
@@ -77,8 +79,8 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 
 Accepted baseline:
 
-- Build: `20260410T123202Z`
-- SHA-256: `751761465c3302af340414b82d1c64c738ebcd046fe299536eb47d4b448f69b3`
+- Build: `20260410T142530Z`
+- SHA-256: `fa204564f4dd7f1af3474f822f0e2b907f86d8f7b4ea53d931534e4bfa56409b`
 
 This is the current accepted release line. If a later release is published, the release page becomes the source of truth for the newest public artifact.
 
@@ -90,8 +92,8 @@ Follow [docs/install.md](docs/install.md) for the current release path.
 
 Accepted release checksum:
 
-- Build: `20260410T123202Z`
-- SHA-256: `751761465c3302af340414b82d1c64c738ebcd046fe299536eb47d4b448f69b3`
+- Build: `20260410T142530Z`
+- SHA-256: `fa204564f4dd7f1af3474f822f0e2b907f86d8f7b4ea53d931534e4bfa56409b`
 
 Verify the downloaded artifact before installing it.
 

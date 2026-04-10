@@ -19,6 +19,7 @@ BetterSeed keeps the public release surface tight and practical.
 - `Export as -> SAVE` fix
 - View edits delete/edit roundtrip fixes
 - Lens Blur re-edit stability fix
+- `Retrolux Brightness` and `Retrolux Contrast` stay on stock `[-100, +100]` even when BetterSeed boundary expansion is higher
 
 ## Editing Power-Ups
 

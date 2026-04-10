@@ -2,7 +2,19 @@
 
 All notable changes to BetterSeed will be documented here.
 
-## 2026-04-10
+## v2026.04.10-3 - 2026-04-10
+
+### Fixed
+
+- `Retrolux Brightness` and `Retrolux Contrast` now stay on stock `[-100, +100]` even when the BetterSeed global boundary is set above `100`
+- The rest of `Retrolux` keeps the expanded BetterSeed boundary, so the fix stays narrow instead of weakening the whole tool
+
+### Current Public Canon
+
+- Public canon refreshed to build `20260410T142530Z`
+- Release artifact checksum refreshed for the accepted baseline
+
+## v2026.04.10-2 - 2026-04-10
 
 ### Added
 

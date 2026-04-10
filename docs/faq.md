@@ -16,8 +16,8 @@ Because it is meant to stay easy to audit, easy to release, and easy to understa
 
 Verify the accepted build checksum:
 
-- Build: `20260410T123202Z`
-- SHA-256: `751761465c3302af340414b82d1c64c738ebcd046fe299536eb47d4b448f69b3`
+- Build: `20260410T142530Z`
+- SHA-256: `fa204564f4dd7f1af3474f822f0e2b907f86d8f7b4ea53d931534e4bfa56409b`
 
 ## Why keep the repo so small?
 
