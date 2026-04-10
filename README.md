@@ -58,6 +58,19 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 - BetterSeed-only custom UI language defaulting to English outside `ru`, with `ru` overrides
 - Author channel link
 
+## What The New Features Actually Do
+
+- `Editable .snpsd projects` let you save work as a real project, reopen it later, and continue editing instead of being stuck with a flat exported image.
+- `Open project` gives project files their own entry point, so normal photo opening stays simple and project reopening stays predictable.
+- `Embedded source, no edits_cache` keeps the project self-contained and portable without dragging along the temporary cache that used to get in the way.
+- `No-resize full-res export` removes the hidden export cap that could silently shrink large images even when you expected full size.
+- `Export as -> SAVE fix` makes folder-based export finish cleanly instead of throwing you back to the home screen with a load error.
+- `View edits roundtrip fixes` mean deleting or reopening a history step now survives the return back to the editor instead of getting lost.
+- `Numeric controls` add `- / value / +`, hold-repeat, and exact number input for tools where the stock slider was too vague.
+- `Global range expansion` widens the allowed adjustment range when the stock limits are too conservative.
+- `.bslook`, `Curves 99`, and `preview fidelity` improve reusable looks, give more room for curve work, and keep the on-screen preview closer to the real result.
+- `Localized BetterSeed UI` keeps BetterSeed-specific additions in English by default outside `ru`, while preserving explicit Russian wording for the Russian locale.
+
 ## Current Canon
 
 Accepted baseline:
@@ -66,19 +79,6 @@ Accepted baseline:
 - SHA-256: `4ebfddcd5beb41cfd76e04a28d8e7d5b96061e6e25a4abb5adb72307fc9c5516`
 
 This is the current accepted release line. If a later release is published, the release page becomes the source of truth for the newest public artifact.
-
-## What BetterSeed Adds
-
-| Area | Public canon |
-| --- | --- |
-| Projects | Editable `.snpsd` save/open, source embedded, `edits_cache` removed |
-| Open flow | Stock photo picker for normal open, separate `Open project` for project files |
-| Export | No-resize full-res export fix, stable `Export as -> SAVE` flow |
-| Editing stability | `View edits` delete/edit roundtrip fixes |
-| Control surface | Numeric `- / value / +`, exact value entry, hold-repeat |
-| Looks and curves | `.bslook` import/export, `Curves 99`, preview fidelity improvements |
-| Extra range control | Global range expansion and configurable boundary setting |
-| Localization | BetterSeed-only custom UI defaults to English outside `ru`, with explicit `ru` overrides |
 
 ## Install
 
