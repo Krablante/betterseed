@@ -93,14 +93,6 @@ Accepted release checksum:
 
 Verify the downloaded artifact before installing it.
 
-## Not In Current Public Canon
-
-These are intentionally excluded from the public baseline:
-
-- Direct `Export as PNG` row
-- Custom exact export-size experiment
-- Expanded Double Exposure controls
-
 ## Disclaimer
 
 BetterSeed is an independent Snapseed mod. It is not affiliated with Google. Public releases may evolve conservatively; release stability is prioritized over shipping every experiment.

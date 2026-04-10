@@ -31,9 +31,3 @@ BetterSeed keeps the public release surface tight and practical.
 
 - BetterSeed-only custom UI language defaults to English outside `ru`, with `ru` overrides
 - Author channel link
-
-## Explicitly Not in the Public Canon
-
-- Direct `Export as PNG` row
-- Custom exact export-size experiment
-- Expanded Double Exposure controls
