@@ -2,6 +2,18 @@
 
 All notable changes to BetterSeed will be documented here.
 
+## v2026.04.10-6 - 2026-04-10
+
+### Fixed
+
+- The separate BetterSeed tool shortcut label is now English too
+- The tools-grid tile and the matching flags title path now both say `Allowed boundary`
+
+### Current Public Canon
+
+- Public canon refreshed to build `20260410T193231Z`
+- Release artifact checksum refreshed for the accepted baseline
+
 ## v2026.04.10-5 - 2026-04-10
 
 ### Fixed
