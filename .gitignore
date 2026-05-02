@@ -29,3 +29,6 @@ pnpm-lock.yaml
 package-lock.json
 yarn.lock
 
+
+atlas.toml
+AGENTS.local.md
