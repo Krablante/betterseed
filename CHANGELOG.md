@@ -2,6 +2,32 @@
 
 All notable changes to BetterSeed will be documented here.
 
+## v2026.09.22-1 - 2026-09-22
+
+### Installation change
+
+- New permanent signing identity. April builds require a one-time reinstall;
+  **save and back up editable projects before uninstalling**. See
+  [migration instructions](docs/install.md#upgrading-from-april-2026-releases).
+- App version `2.22.0-bs.260922`, versionCode `1435393`.
+
+### Fixed
+
+- Returning from View edits no longer serializes the filter stack into a
+  delete-on-read temporary file consumed by two result handlers. This fixes the
+  reproduced crash with large masked stacks above the 100 KiB transport threshold.
+- Toolbar Close and system Back complete history once instead of twice.
+- Undo after a history change restores the entry state; viewing history without
+  changing it preserves Redo.
+- Discard changes retains the history entry state after activity recreation.
+
+### Development
+
+- Added a checksum-pinned patch/build path for the existing accepted BetterSeed
+  APK. Native rendering code, image assets and resources remain unchanged.
+- See [history architecture](docs/history-fix.md) and
+  [manual verification](docs/verification-2026-09-22.md).
+
 ## v2026.04.10-6 - 2026-04-10
 
 ### Fixed

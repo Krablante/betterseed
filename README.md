@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Krablante/betterseed/releases/tag/v2026.04.10-6"><img alt="Release" src="https://img.shields.io/badge/release-v2026.04.10--6-2ea44f"></a>
+  <a href="https://github.com/Krablante/betterseed/releases/tag/v2026.09.22-1"><img alt="Release" src="https://img.shields.io/badge/release-v2026.09.22--1-2ea44f"></a>
   <a href="https://github.com/Krablante/betterseed"><img alt="Repository" src="https://img.shields.io/badge/repo-public-24292f?logo=github"></a>
   <a href="https://github.com/Krablante/betterseed/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-1f6feb"></a>
   <img alt="Android" src="https://img.shields.io/badge/Android-11%2B-3DDC84?logo=android&logoColor=white">
@@ -36,6 +36,8 @@
 
 BetterSeed is an independent Snapseed mod release line focused on keeping the app practical, editable, and export-safe. This repository is the standalone public home for releases, install docs, changelog, and project-level notes.
 
+**Upgrading from an April 2026 release?** This release starts a new permanent signing identity. Save and back up your editable `.snpsd` projects before uninstalling the old BetterSeed; the new APK cannot install over the old signature. See the [one-time migration instructions](docs/install.md#upgrading-from-april-2026-releases). Stock Snapseed is unaffected.
+
 If stock Snapseed is your reference point, the BetterSeed approach is narrow on purpose: preserve the original flow where it already works, then patch the seams that actually block day-to-day project work.
 
 ## Why People Use It
@@ -54,6 +56,7 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 - No-resize full-res export fix
 - `Export as -> SAVE` fixed
 - View edits delete/edit roundtrip fixes
+- Large masked-stack return crash fix, single history completion, and correct history Undo
 - Lens Blur re-edit stability fix
 - Retrolux Brightness/Contrast safe stock clamp under expanded boundaries
 - Shared numeric controls with exact value entry and hold-repeat
@@ -68,6 +71,7 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 - `No-resize full-res export` removes the hidden export cap that could silently shrink large images even when you expected full size.
 - `Export as -> SAVE fix` makes folder-based export finish cleanly instead of throwing you back to the home screen with a load error.
 - `View edits roundtrip fixes` mean deleting or reopening a history step now survives the return back to the editor instead of getting lost.
+- `Large mask history fix` removes the duplicate, file-backed state handoff that crashed when returning from sufficiently large edit stacks. Mask detail and the native renderer are unchanged.
 - `Lens Blur re-edit stability fix` closes a real reopen crash where returning to Lens Blur from `View edits` could fail before the tool became usable.
 - `Retrolux safety carve-out` keeps `Retrolux Brightness` and `Retrolux Contrast` on stock `[-100, +100]` even when the BetterSeed global boundary is expanded, which prevents Retrolux from crashing while leaving the other Retrolux controls expanded.
 - `Numeric controls` add `- / value / +`, hold-repeat, and exact number input for tools where the stock slider was too vague.
@@ -79,8 +83,9 @@ If stock Snapseed is your reference point, the BetterSeed approach is narrow on 
 
 Accepted baseline:
 
-- Build: `20260410T193231Z`
-- SHA-256: `cc67b58477e43769fa59b17ccb9078844837e9a7c0f81d1e851ddd59bd1c3bd7`
+- Build: `20260922T082155Z`
+- App version: `2.22.0-bs.260922` (`1435393`)
+- SHA-256: `40914e23e56a8452905dc74465caec0a2330c4d2f8bc361b81c5a24b9d3e80c7`
 
 This is the current accepted release line. If a later release is published, the release page becomes the source of truth for the newest public artifact.
 
@@ -98,8 +103,8 @@ Follow [docs/install.md](docs/install.md) for the current release path.
 
 Accepted release checksum:
 
-- Build: `20260410T193231Z`
-- SHA-256: `cc67b58477e43769fa59b17ccb9078844837e9a7c0f81d1e851ddd59bd1c3bd7`
+- Build: `20260922T082155Z`
+- SHA-256: `40914e23e56a8452905dc74465caec0a2330c4d2f8bc361b81c5a24b9d3e80c7`
 
 Verify the downloaded artifact before installing it.
 
